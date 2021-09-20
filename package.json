@@ -1,0 +1,26 @@
+{
+  "name": "musicbot",
+  "version": "1.0.0",
+  "description": "my music bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Musicbot"
+  },
+  "keywords": [
+    "Musicbot"
+  ],
+  "author": "Brian Ellingsgaard",
+  "license": "0BSD",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord.js": "^12.5.3",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "twilio": "^3.67.2",
+    "ytdl-core": "^4.9.1"
+  }
+}
